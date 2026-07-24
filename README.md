@@ -110,7 +110,7 @@ pps = 2;   % RPP
 pps = 3;   % VS
 ```
 
-The selected priority determines how the inverter allocates its available apparent-power capability when simultaneous active- and reactive-power commands approach the inverter rating.
+The selected priority determines how the inverter allocates its available apparent-power capability when simultaneous active and reactive-power commands approach the inverter rating.
 
 ### `rps` — Reactive Power Selection
 
