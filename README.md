@@ -1,6 +1,6 @@
 # Smart Inverter Toolbox for MATLAB/Simulink
 
-A modular electromagnetic-transient (EMT) smart inverter model for MATLAB/Simulink. The toolbox provides configurable grid-support functions, real-time operating-mode selection, automatic controller tuning, automatic filter calculation, inverter capability enforcement, and dynamic switching between active- and reactive-power support functions.
+A modular electro-magnetic-transient (EMT) smart inverter toolbox for MATLAB/Simulink. The toolbox provides configurable grid-support functions, real-time operating-mode selection, automatic controller tuning, automatic filter calculation, and real-time dynamic switching between the support functions.
 
 The model is intended for distribution-network studies, controller benchmarking, heterogeneous smart-inverter studies, real-time simulation, and power-hardware-in-the-loop workflows.
 
@@ -13,18 +13,16 @@ The model is intended for distribution-network studies, controller benchmarking,
 - Constant reactive power control.
 - Volt-VAr control with eight selectable curves.
 - Volt-Watt and overvoltage Volt-Watt support.
-- Active-power, reactive-power, and voltage-support priority options.
+- Active-power, reactive-power, and vector control priority options.
 - Real-time switching between supported control modes.
-- Apparent-power and current capability enforcement.
+- Apparent-power and current capability constraints.
 - Suitable for EMT simulation and real-time implementation.
 
 ## Software Requirements
 
-- MATLAB
+- MATLAB 2024a and above
 - Simulink
-- Simscape Electrical / Specialized Power Systems, when required by the surrounding network model
-
-Use a MATLAB release compatible with the supplied Simulink model and library files.
+- Simscape Electrical / Specialized Power Systems
 
 ## Getting Started
 
